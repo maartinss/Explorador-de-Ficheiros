@@ -1,0 +1,10 @@
+<!-- file-explorer-frontend/src/app/file-list/file-list.component.html -->
+<div>
+    <h2>File Explorer</h2>
+    <button (click)="goBack()" [disabled]="currentPath === '/'">Back</button>
+    <ul>
+      <li *ngFor="let file of files" (click)="navigateTo(file)">
+        {{ file.name }} <span *ngIf="file.isDirectory">[DIR]</span>
+      </li>
+    </ul>
+  </div>

@@ -1,7 +1,5 @@
-package com.martinsproject.explorador_de_ficheiros.fileexplorer.controller;
+package com.martinsproject.explorador_de_ficheiros;
 
-import com.martinsproject.explorador_de_ficheiros.fileexplorer.entity.FileEntity;
-import com.martinsproject.explorador_de_ficheiros.fileexplorer.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

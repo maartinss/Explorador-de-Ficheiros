@@ -1,4 +1,4 @@
-package com.martinsproject.explorador_de_ficheiros.fileexplorer.entity;
+package com.martinsproject.explorador_de_ficheiros;
 
 
 import jakarta.persistence.*;
@@ -13,6 +13,7 @@ public class FileEntity {
     private Long id;
 
     private String name;
+    private Long fileId;
     private String path;
     private Long size;
     private String type;
